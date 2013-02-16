@@ -20,7 +20,7 @@ String response = new HttpDsl.Request("some-url.com").post().response().toString
 
 <h3>
   Reques With Parameters
-<h3>
+</h3>
 
 ```java
 String response = String response = new HttpDsl.Request("some-url.com").param("id","32").get().response().toString();

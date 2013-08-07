@@ -3,6 +3,20 @@ android-http-dsl
 
 light weight dsl to make simple http requests easier with android
 
+<h2>Install and configuration</h2>
+<ul>
+<li>
+  Add library files to your project
+</li>
+<li>
+  Add permission for internet access in the project manifest file:
+</li>
+
+</ul>
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
 
 
 <h2>Examples</h2>
